@@ -1,1 +1,3 @@
-document.documentElement.classList.add("ready");
+window.requestAnimationFrame(() => {
+  document.documentElement.classList.add("ready");
+});
